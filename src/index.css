@@ -1,0 +1,16 @@
+* {
+	margin: 0;
+}
+
+.Link {
+	text-decoration: none;
+	color: inherit;
+}
+
+.CircularProgress {
+	position: absolute;
+	left: 50vw;
+	top: 50vh;
+	transform: translate(-50%);
+	z-index: 55;
+}

@@ -1,0 +1,69 @@
+.AddPage {
+	width: 100%;
+	height: 100%;
+}
+
+.AddPage-Wrapper {
+	width: 90%;
+	height: 100vh;
+	position: relative;
+	left: 10%;
+	top: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.AddPage-Wrapper-Title {
+	color: rgb(101, 173, 170);
+	text-shadow: 1px 1px rgb(224, 224, 224);
+	font-size: 25px;
+	margin-bottom: 20px;
+	letter-spacing: 1px;
+}
+
+.AddPage-Wrapper-Form {
+	display: flex;
+	flex-direction: column;
+	width: 500px;
+	border: 1px solid gray;
+	padding: 20px;
+	border-radius: 5px;
+	color: gray;
+}
+
+.AddPage-Wrapper-Form > input {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	display: inline-block;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+	color: black;
+}
+
+.AddPage-Wrapper-Form-Select {
+	border: 1px solid #ccc;
+	padding: 10px;
+	font-size: 12px;
+	letter-spacing: 2px;
+	border-radius: 5px;
+	margin: 8px 0;
+}
+
+.AddPage-Wrapper-Form-Button {
+	width: 100%;
+	background: rgb(101, 173, 170);
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.AddPage-Wrapper-Form-Button:hover {
+	background-color: rgb(165, 223, 220);
+}
